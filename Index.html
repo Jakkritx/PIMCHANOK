@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 สุขสันต์วันครบรอบ 🌸</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0e4e4;
+            scroll-behavior: smooth;
+            box-sizing: border-box;
+        }
+
+        section {
+            padding: 60px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 105, 180, 0.8);
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url('image.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: #ff69b4;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background 0.3s;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background: #ff1493;
+        }
+
+        .story, .memories, .message {
+            text-align: center;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .story h2, .memories h2, .message h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #ff1493;
+        }
+
+        .story p, .memories p, .message p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #ff69b4;
+            color: white;
+        }
+
+        .video-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            overflow-x: auto;
+            padding: 20px;
+        }
+
+        .video-container video {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .message {
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url('background-message.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#hero">🏠 หน้าแรก</a>
+        <a href="#story">📖 เรื่องราวของเรา</a>
+        <a href="#memories">🎥 ความทรงจำ</a>
+        <a href="#message">💌 ข้อความพิเศษ</a>
+    </nav>
+
+    <section class="hero" id="hero">
+        <h1>🌸 สุขสันต์วันครบรอบที่รัก! 🌸</h1>
+        <p>📅 18 September</p>
+        <a href="#story" class="btn">📖 เรื่องราวของเรา</a>
+        <a href="#memories" class="btn">🎥 ความทรงจำ</a>
+        <a href="#message" class="btn">💌 ข้อความพิเศษ</a>
+    </section>
+
+    <section class="story" id="story">
+        <h2>📖 เรื่องราวของเรา</h2>
+        <p>💞 ทุกอย่างเริ่มต้นในวันที่เราเจอกันครั้งแรก...</p>
+        <p>🏞 เดตแรกของเรา, ทริปแรกที่เราไปด้วยกัน และทุกช่วงเวลาที่เราได้ใช้ร่วมกัน</p>
+        <p>💕 ตั้งแต่วันนั้น ฉันรู้แล้วว่าเธอคือคนที่ฉันอยากใช้ชีวิตร่วมไปด้วย</p>
+        <p><b>🌈 "ความรักคือการเดินทางที่ไม่มีวันจบสิ้น เราจะร่วมกันสร้างเรื่องราวที่สวยงามต่อไป" 🌈</b></p>
+    </section>
+
+    <section class="memories" id="memories">
+        <h2>🎥 ความทรงจำ</h2>
+        <p>✨ นี่คือบางส่วนของช่วงเวลาที่เรามีร่วมกัน:</p>
+        <div class="video-container">
+            <video controls autoplay muted>
+                <source src="video1.mov" type="video/mp4">
+                เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+            </video>
+            <video controls autoplay muted>
+                <source src="video2.mov" type="video/mp4">
+                เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+            </video>
+            <video controls autoplay muted>
+                <source src="video3.mov" type="video/mp4">
+                เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+            </video>
+        </div>
+        <p><b>🕊️ "ความทรงจำที่ดีที่สุดไม่ได้อยู่ในสถานที่ แต่คือคนที่อยู่ข้างๆเรา" 🕊️</b></p>
+    </section>
+
+    <section class="message" id="message">
+        <h2>💌 พิมพ์ชนก</h2>
+         <p style="color: white;">ขอบคุณที่เป็นคู่ชีวิตของฉัน เป็นเพื่อนที่ดีที่สุดของฉัน และเป็นทุกสิ่งทุกอย่างของฉัน ❤️</p>
+         <p style="color: white;">ฉันรักเธอมากกว่าคำพูดที่จะแสดงออกได้ และฉันสัญญาว่าจะรักและดูแลเธอตลอดไป 🌹</p>
+         <p style="color: white;"><b>🌻 "รักเราเป็นมากกว่าคำพูด มันคือการกระทำและความรู้สึกที่เรามีต่อกัน" 🌻</b></p>
+    </section>
+
+    <div class="footer">
+        <p>ด้วยความรักทั้งหมดของฉัน, [จักรกฤษ] 💖</p>
+    </div>
+
+</body>
+</html>
